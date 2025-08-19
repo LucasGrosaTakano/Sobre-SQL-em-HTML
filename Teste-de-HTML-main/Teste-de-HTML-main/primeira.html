@@ -1,0 +1,126 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .barra-cinza {
+            background-color: #dee5ff; 
+            width: 1100px; 
+            margin: 0 auto; 
+            padding: 20px 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="barra-cinza">
+        <table border="0" width="900" align="center">
+            <tr>
+                <td align="right">
+                    <a href="segunda.html">Próxima página</a>
+                </td>
+            </tr>
+
+                <td colspan="2">
+                    <br>
+                    <img style="width: 1000px; height: 500px;" src="./imagens/dml.png" alt="introducao">
+                    <h3>Comandos DML</h3>
+
+                    <ul>
+                        <!-- SELECT -->
+                        <li>
+                            <strong>SELECT –</strong> O comando SELECT é utilizado para recuperar dados de uma tabela em um banco de dados. 
+                            Ele permite visualizar as informações armazenadas, podendo filtrar, agrupar ou ordenar os dados de diversas formas.
+                        </li>
+                        <br>
+                        <table bgcolor="#272727" border="1" cellspacing="0" cellpadding="5" width="100%">
+                            <tr>
+                              <td>
+                                <pre>
+<font color="#3cb371">//Exemplo:</font>                                
+<font color="white"><font color="#6495ed">SELECT</font> nome, idade 
+<font color="#6495ed">FROM</font> alunos 
+<font color="#6495ed">WHERE</font> idade &gt; 18;</font>
+                                </pre>
+                              </td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <!-- INSERT -->
+                        <li>
+                            <strong>INSERT –</strong> O comando INSERT é usado para adicionar novos registros a uma tabela. 
+                            Você deve fornecer os valores correspondentes às colunas definidas.
+                        </li>
+                        <br>
+                        <table bgcolor="#272727" border="1" cellspacing="0" cellpadding="5" width="100%">
+                            <tr>
+                              <td>
+                                <pre>
+<font color="#3cb371">//Exemplo:</font>   
+<font color="white"><font color="#6495ed">INSERT INTO</font> alunos (nome, idade) 
+<font color="#6495ed">VALUES</font> ('Ronaldo', 22);</font>
+                                </pre>
+                              </td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <!-- UPDATE -->
+                        <li>
+                            <strong>UPDATE –</strong> O comando UPDATE permite modificar os dados existentes em uma tabela. 
+                            É útil, por exemplo, para corrigir informações ou atualizar registros.
+                        </li>
+                        <br>
+                        <table bgcolor="#272727" border="1" cellspacing="0" cellpadding="5" width="100%">
+                            <tr>
+                              <td>
+                                <pre>
+<font color="#3cb371">//Exemplo:</font>   
+<font color="white"><font color="#6495ed">UPDATE</font> alunos 
+<font color="#6495ed">SET</font> idade = 19 
+<font color="#6495ed">WHERE</font> nome = 'Pedro';</font>
+                                </pre>
+                              </td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <!-- DELETE -->
+                        <li>
+                            <strong>DELETE –</strong> O comando DELETE serve para remover registros de uma tabela. 
+                            Ele deve sempre ser usado com cuidado, geralmente acompanhado de uma condição.
+                        </li>
+                        <br>
+                        <table bgcolor="#272727" border="1" cellspacing="0" cellpadding="5" width="100%">
+                            <tr>
+                              <td>
+                                <pre>
+<font color="#3cb371">//Exemplo:</font>   
+<font color="white"><font color="#6495ed">DELETE FROM</font> alunos 
+<font color="#6495ed">WHERE</font> nome = 'Leo';</font>
+                                </pre>
+                              </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </ul>
+
+                    <p>
+                        Os comandos <strong>DML (Data Manipulation Language)</strong> são fundamentais para trabalhar com 
+                        bancos de dados relacionais. O <font color="#6495ed"><b>SELECT</b></font> é utilizado para consultar e 
+                        visualizar informações; o <font color="#6495ed"><b>INSERT</b></font> insere novos registros; 
+                        o <font color="#6495ed"><b>UPDATE</b></font> atualiza dados já existentes; e o 
+                        <font color="#6495ed"><b>DELETE</b></font> remove informações de forma definitiva. 
+                        Dominar esses comandos é essencial para quem deseja manipular dados de maneira 
+                        eficiente, garantindo consultas rápidas, inserções corretas e manutenção adequada 
+                        das tabelas em um banco de dados.
+                    </p>
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
